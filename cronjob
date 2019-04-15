@@ -1,0 +1,1 @@
+*/15 * * * * mkdir -p /var/log/psdump && ps aux --sort -rss > /var/log/psdump/`date +\%Y\%m\%d\%H\%M`
